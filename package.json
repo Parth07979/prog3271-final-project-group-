@@ -1,0 +1,32 @@
+{
+  "name": "prog3271-final-project-group-",
+  "version": "1.0.0",
+  "description": "It is a TypeScript based NodeJS backend forum project. It enables the users to create an account, log in, post, comment and like. It is based on Clean Architecture, has authentication, authorization, logging, and RESTful APIs, which are tested via Bruno.",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "echo \"No tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parth07979/prog3271-final-project-group-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Parth07979/prog3271-final-project-group-/issues"
+  },
+  "homepage": "https://github.com/Parth07979/prog3271-final-project-group-#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.3.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.9.3"
+  }
+}
